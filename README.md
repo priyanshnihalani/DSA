@@ -7,10 +7,11 @@ This repository contains a full, day-by-day gamified campaign covering **every a
 
 ## 🏆 Player Profile
 - **Player Class:** Algorithm Architect
-- **Current Rank:** Level 1 — *Loop Apprentice* 🥉
-- **Current Streak:** 🔥 2 Days Active
-- **Total XP:** 200 / 7,500 XP
-- **Target Goal:** 65 Days / 65 Algorithms Mastered
+- **Current Rank:** Level 8 — *Array Gladiator* 🔵 ⚔️
+- **Current Streak:** 🔥 3 Days Active
+- **Total XP:** 950 / 7,500 XP
+- **Target Goal:** Complete DSA by Dec 31, 2026 to Crack Big Tech
+- **🎯 83-Day Master Schedule:** [FAANG_ROADMAP_2026.md](file:///D:/DSA/FAANG_ROADMAP_2026.md)
 
 ---
 
@@ -18,7 +19,7 @@ This repository contains a full, day-by-day gamified campaign covering **every a
 
 ```mermaid
 flowchart LR
-    A["Lv 1-7: Loop Apprentice (0-700 XP)"] --> B["Lv 8-15: Array Gladiator (800-1500 XP)"]
+    A["Lv 1-7: Loop Apprentice (750 XP) ✅"] --> B["Lv 8-15: Array Gladiator (800-1500 XP) 🔵 CURRENT"]
     B --> C["Lv 16-24: Search & Sort Scout (1600-2400 XP)"]
     C --> D["Lv 25-33: Pointer & String Duelist (2500-3300 XP)"]
     D --> E["Lv 34-42: Stack & Queue Sentinel (3400-4200 XP)"]
@@ -28,8 +29,8 @@ flowchart LR
 
 | Level Range | Rank Title | Required XP | Status |
 | :---: | :--- | :---: | :---: |
-| **Lv 1 - 7** | 🟢 **Loop Apprentice** | 0 – 700 XP | **CURRENT** |
-| **Lv 8 - 15** | 🔵 **Array Gladiator** | 800 – 1,500 XP | 🔒 Locked |
+| **Lv 1 - 7** | 🟢 **Loop Apprentice** | 0 – 700 XP | ✅ **MASTERED** |
+| **Lv 8 - 15** | 🔵 **Array Gladiator** | 800 – 1,500 XP | ⚡ **CURRENT** |
 | **Lv 16 - 24** | 🟣 **Search & Sort Scout** | 1,600 – 2,400 XP | 🔒 Locked |
 | **Lv 25 - 33** | 🟡 **Pointer & String Duelist** | 2,500 – 3,300 XP | 🔒 Locked |
 | **Lv 34 - 42** | 🛡️ **Stack & Queue Sentinel** | 3,400 – 4,200 XP | 🔒 Locked |
@@ -48,10 +49,10 @@ flowchart LR
 - [x] **Day 01 (100 XP):** [Time & Space Complexity (Big-O, Omega, Theta)](Notes/Time_and_Space_Complexity_Notes.md)
 - [x] **Day 02 (100 XP):** [The 22 Pattern Logic & Grid Coordinates Guide](Notes/22_patterns_logic_guide.md)
 - [x] **Day 03 (100 XP):** [Digit Extraction, Reverse Int & Palindrome Math](Notes/03_Digit_Math_Tricks.md)
-- [ ] **Day 04 (100 XP):** Euclidean GCD & Sieve of Eratosthenes (Prime Generation)
-- [ ] **Day 05 (100 XP):** Fast Exponentiation / Modular Arithmetic ($O(\log N)$ Power)
-- [ ] **Day 06 (100 XP):** Bit Manipulation Basics (AND, OR, XOR, Shifts, Brian Kernighan)
-- [ ] **Day 07 (150 XP) [BOSS FIGHT 🛡️]:** Bitwise Tricks (Single Number, Missing Number, Power of 2)
+- [x] **Day 04 (100 XP):** [Euclidean GCD & Prime Generation (Sieve & Divisors)](Euclidean_Algorithm/gcd.js)
+- [x] **Day 05 (100 XP):** [Fast Exponentiation / Modular Arithmetic ($O(\log N)$ Power)](Recursion&Backtracking/powerfunction.js)
+- [x] **Day 06 (100 XP):** [Bit Manipulation Basics (AND, OR, Shifts, Brian Kernighan)](Bit-Wise/checkingIthbit.js)
+- [x] **Day 07 (150 XP) [BOSS FIGHT 🛡️]:** [Bitwise Tricks (Single Number, Power of 2, Reverse Bits)](Bit-Wise/bit.md)
 
 ---
 
@@ -117,8 +118,8 @@ flowchart LR
 ### 🌲 World 6: Recursion, Backtracking & Trees (Days 43 - 52)
 *Explore recursive state spaces, binary trees, and branch pruning.*
 
-- [ ] **Day 43 (100 XP):** Recursion State Trees & Subsets (Pick / Do Not Pick Blueprint)
-- [ ] **Day 44 (100 XP):** Backtracking: Permutations & Combination Sum
+- [x] **Day 43 (100 XP):** [Recursion State Trees & Subsets (Pick / Do Not Pick Blueprint)](Recursion&Backtracking/printing-subsets.js)
+- [x] **Day 44 (100 XP):** [Backtracking: Permutations & Combination Sum](Recursion&Backtracking/permutation.js)
 - [ ] **Day 45 (100 XP):** N-Queens & Sudoku Solver (Constraint Propagation)
 - [ ] **Day 46 (100 XP):** Binary Tree Traversals: Recursive vs Iterative (Pre, In, Post, Level Order)
 - [ ] **Day 47 (100 XP):** Height, Diameter, and Maximum Path Sum of Binary Tree
