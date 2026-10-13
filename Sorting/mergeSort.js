@@ -3,24 +3,24 @@ const mergeSort = (array) => {
         return array;
     }
 
-    const middle = Math.floor(array.length / 2)
+    const middle = Math.floor(array.length / 2);
     const left = array.slice(0, middle);
-    const right = array.slice(middle)
+    const right = array.slice(middle, array.length);
 
     return merge(mergeSort(left), mergeSort(right))
 }
 
 const merge = (leftArray, rightArray) => {
-    let sortedResult = []
+    const sortedArray = [];
     while (leftArray.length > 0 && rightArray.length > 0) {
-
         if (leftArray[0] < rightArray[0]) {
-            sortedResult.push(leftArray.shift())
+            sortedArray.push(leftArray.shift())
         }
         else {
-            sortedResult.push(leftArray.shift())
+            sortedArray.push(rightArray.shift())
         }
     }
-
-    return [...sortedResult, ...leftArray, ...rightArray]
+    return [...sortedArray, ...leftArray, ...rightArray]
 }
+
+console.log(mergeSort([5, 2, 4, 1, 3]));
